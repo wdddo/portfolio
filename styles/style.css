@@ -1,6 +1,7 @@
 /* Generelles anfang --------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 
 *{
     margin: 0;
@@ -16,8 +17,8 @@
 }
 
 body{
-    font-family: "Montserrat", sans-serif;
-    /* background-color: var(--background); */
+    font-family: "Racing Sans One", sans-serif;
+    letter-spacing: 2px;
     background: linear-gradient(160deg, rgb(25, 0, 0), rgb(75, 0, 0), rgb(211, 120, 0));
     color: var(--accent-2);
 }
@@ -42,7 +43,7 @@ h2{
     font-size: 32px;
 }
 
-a{
+a{  padding: 20px 50px;
     text-decoration: none;
     color: inherit;
 }
@@ -74,7 +75,7 @@ p{
 }
 
 .header > div {
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
     margin: 20px 100px;
@@ -87,7 +88,7 @@ p{
     justify-content: space-between;
 }
 
-.nav-bar > a:hover{
+a:hover{
     color: var(--accent-2);
 }
 
@@ -96,7 +97,7 @@ p{
 /* Hero anfang --------------------------------------------------*/
 
 .hero > div{
-    width: 600px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     margin: 170px 0;
@@ -110,6 +111,15 @@ p{
 .hero > div > h2 {
     text-align: right;
 }
+
+.change-h2 {
+    transition: opacity 1s ease;
+    opacity: 1;
+  }
+
+.fade-out {
+    opacity: 0;
+  }
 
 /* Hero ende anfang --------------------------------------------------*/
 /* Footer anfang --------------------------------------------------*/
