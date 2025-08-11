@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <div class="header">
@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class="invert-circle"></div>
-    <script src="../scripts/script.js"></script>
+    <script src="/scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/1b3e325aa2.js" crossorigin="anonymous"></script>
 </body>
 </html>
