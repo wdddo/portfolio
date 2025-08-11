@@ -2,7 +2,7 @@ const invertCircle = document.querySelector('.invert-circle');
 
 let x = 0, y = 0;
 let targetX = 0, targetY = 0;
-const speed = 0.25;
+const speed = 0.1;
 
 document.addEventListener('mousemove', e => {
   targetX = e.clientX;
@@ -34,3 +34,19 @@ setInterval(() => {
       h2.classList.remove('fade-out');
     }, 1000); // gleiche Dauer wie die CSS-Transition
   }, 5000); // alle 5 Sekunden
+
+  // ----------------------------------------
+
+  fetch("../elements/footer.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("footer-element").innerHTML = data;
+  });
+
+  // ------------------------------------------
+
+  fetch("../elements/header.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("header-element").innerHTML = data;
+  });

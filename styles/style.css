@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -18,9 +19,24 @@
 
 body{
     font-family: "Racing Sans One", sans-serif;
-    letter-spacing: 2px;
-    background: linear-gradient(160deg, rgb(25, 0, 0), rgb(75, 0, 0), rgb(211, 120, 0));
     color: var(--accent-2);
+    letter-spacing: 2px;
+}
+
+.background-1{
+    background: linear-gradient(160deg, rgb(25, 0, 0), rgb(75, 0, 0), rgb(211, 120, 0));
+}
+
+.background-2{
+    background: linear-gradient(220deg, rgb(25, 0, 0), rgb(75, 0, 0), rgb(211, 120, 0));
+}
+
+.background-3{
+    background: linear-gradient(300deg, rgb(25, 0, 0), rgb(75, 0, 0), rgb(211, 120, 0));
+}
+
+.background-4{
+    background: linear-gradient(40deg, rgb(25, 0, 0), rgb(75, 0, 0), rgb(211, 120, 0));
 }
 
 .invert-circle {
