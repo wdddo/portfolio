@@ -62,6 +62,10 @@ a{
     text-decoration: underline;
 }
 
+p{
+    margin-top: 300px;
+}
+
 /* Generelles ende --------------------------------------------------*/
 /* Header anfang --------------------------------------------------*/
 

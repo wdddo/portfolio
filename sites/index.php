@@ -21,6 +21,7 @@
         <div>
             <h1>Digitale Energie</h1>
             <h2>die eine Website entfacht</h2>
+            <p>moin mo</p>
         </div>
     </div>
     <div class="place-holder"></div>
